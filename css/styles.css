@@ -363,13 +363,11 @@ image {
     flex-direction: row;
     align-items: center;
     margin-top: 16px;
-
 }
 .footer-item-icon {
     display: inline-flex;
     justify-content: center;
     margin-right: 10px; 
-
 }
 .footer-item-icon:last-child {
     margin-right: 0px;
@@ -377,7 +375,6 @@ image {
 .footer-link-icon:hover,
 .footer-link-icon:focus {
     background-color: var(--accent-color);
-
 }
 .footer-link-icon {
     display: inline-flex;
@@ -388,8 +385,7 @@ image {
     border-radius: 50%;
     fill: #FFFFFF;
     background-color: rgba(255, 255, 255, 0.1);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);   
 }
 .column-footer {
     display: flex;
@@ -400,8 +396,6 @@ image {
 .footer-social {
     display: flex;
     flex-direction: column;
-
-
 }
 .title-footer {
     text-transform: uppercase;
@@ -410,7 +404,6 @@ image {
     line-height: 1.142;
     letter-spacing: 0.03em; 
     color: #FFFFFF;
-
 }
 .subscribe-title {
 
@@ -420,9 +413,7 @@ image {
     font-size: 14px;
     line-height: 1.14;
     margin-bottom: 20px;
-
 }
-
 .subscribe-input {
     width: 358px;
     height: 50px;
@@ -437,17 +428,19 @@ image {
 }
 .subscribe-btn {
     display: flex;
+    align-items: center;
+    justify-content: center;
+
     width: 200px;
     height: 50px;
     margin-left: 12px;
+
     background-color: var(--accent-color);
     color: var(--top-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 
-
-    align-items: center;
-    justify-content: center;
+    cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .subscribe-btn:focus,
@@ -455,11 +448,9 @@ image {
     background-color: var(--third-bgd-color);
 }
 .footer-icon-send {
-
     background-color: inherit;
     fill: var(--top-color);
     margin-left: 10px;
-
 } 
 .subscribe-footer{
     display: flex;
