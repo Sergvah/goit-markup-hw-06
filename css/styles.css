@@ -433,6 +433,7 @@ image {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background-color: var(--footer-header-bgd-color);
+    color: var(--top-color);
 }
 .subscribe-btn {
     display: flex;
@@ -453,18 +454,16 @@ image {
 .subscribe-btn:hover {
     background-color: var(--third-bgd-color);
 }
-
-.subscribe-input-btn {
-    display: flex;
-    flex-direction: row;
-
-}
 .footer-icon-send {
 
     background-color: inherit;
     fill: var(--top-color);
     margin-left: 10px;
 
+} 
+.subscribe-footer{
+    display: flex;
+    flex-direction: row;
 }
 /*---------------------СТРАНИЦА СТУДИЯ--------------------*/
 .section-hero {
