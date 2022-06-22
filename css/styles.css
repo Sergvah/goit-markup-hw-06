@@ -496,6 +496,7 @@ image {
     padding-left: 32px;
     min-width: 200;
     border-radius: 4px;
+    border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
     background-color: var(--accent-color);
@@ -762,7 +763,7 @@ image {
     transition: opacity 250ms, visibility 250ms;
 }
 .modal {
-    width: 521px;
+    width: 528px;
     height: 581px;
     background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -805,6 +806,7 @@ image {
 }
 
 .modal-form {
+
     margin-top: 12px;
     
 }
@@ -876,6 +878,7 @@ image {
 }
 .modal-field:nth-child(5) {
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 .input-wrap {
     position: relative;
@@ -943,15 +946,15 @@ image {
     border-radius: 4px;
     border: none;
  
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin: 0 auto;
+
     width: 200px;
     height: 50px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
 
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     letter-spacing: 0.06em;
