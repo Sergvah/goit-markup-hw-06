@@ -338,6 +338,7 @@ image {
     letter-spacing: 0.03em;
 }
 .footer-adress {
+    width: 231px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -389,13 +390,14 @@ image {
 }
 .column-footer {
     display: flex;
-    flex-direction: row;
     align-items: baseline;
-    justify-content:space-between;
+
 }
 .footer-social {
     display: flex;
     flex-direction: column;
+    margin-left: 70px;
+    margin-right: auto;
 }
 .title-footer {
     text-transform: uppercase;
@@ -439,6 +441,7 @@ image {
     color: var(--top-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: none;
 
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
